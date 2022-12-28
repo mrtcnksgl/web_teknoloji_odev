@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hiper Arabalar</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+  <style>
+    body{
+        background-color: rgb(55, 46, 84);
+    }
+    .navbar{
+        background-color: rgb(27, 17, 57);
+    }
+    .bread{
+        position: relative;
+        width: 170px;
+        height: 100px;
+    }
+
+  </style>
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand text-white" href="anasayfa.html">Hiper Arabalar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="anasayfa.html">Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="tarihçe.html">Tarihçe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="galeri.html">Galeri</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="iletişim.html">İletişim</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <nav aria-label="breadcrumb" class="bread">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="anasayfa.html">Anasayfa</a></li>
+          <li class="breadcrumb-item"><a href="iletişim.html">İletişim</a></li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="container mx-auto">
+        <h2 class="text-white">Bize Ulaşın!</h2>
+        <form>
+          <div class="form-group">
+            <label for="isim" class="text-white">İsim ve Soyisim</label>
+            <input type="text" class="form-control" id="isim" placeholder="İsminizi ve soyisminizi giriniz">
+          </div>
+          <div class="form-group">
+            <label for="email" class="text-white">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email adresinizi giriniz">
+          </div>
+          <div class="form-group">
+            <label for="mesaj" class="text-white">Görüş ve önerileriniz</label>
+            <textarea class="form-control" id="mesaj" rows="3" placeholder="Mesajınızı giriniz"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Gönder</button>
+        </form><br>
+
+        <p class="text-center text-white"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3044.8396272877985!2d30.32866267293764!3d40.741483905314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccaded70ee240b%3A0xd81085b5551312fd!2sBilgisayar%20Ve%20Bili%C5%9Fim%20Bilimleri%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1672255506608!5m2!1str!2str" 
+            width="750" height="600" style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+            <strong>Harita üzerinden adrese ulaşabilirsiniz!</strong><br>
+            Telefon numarası: 0264 000 00 00
+        </p>
+
+      </div>
+
+</body>
+</html>
